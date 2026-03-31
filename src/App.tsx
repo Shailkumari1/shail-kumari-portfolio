@@ -171,7 +171,7 @@ const About = () => (
           <div className="absolute -inset-4 bg-gradient-to-tr from-brand-orange/40 to-transparent rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-70 transition-opacity"></div>
           <div className="absolute inset-0 border-2 border-brand-orange translate-x-4 translate-y-4 rounded-3xl transition-transform group-hover:translate-x-6 group-hover:translate-y-6"></div>
           <img 
-            src="./src/images/shail.jpg" 
+            src="src/images/shail.jpg" 
             alt="Shail Kumari" 
             className="relative z-10 w-full h-full object-cover rounded-3xl grayscale group-hover:grayscale-0 transition-all duration-500 shadow-xl"
             referrerPolicy="no-referrer"
