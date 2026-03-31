@@ -6,6 +6,7 @@ import {
   Download, User, Mail, Linkedin, ExternalLink,
   Database, Coffee, Briefcase, GraduationCap, Award, ChevronRight
 } from 'lucide-react';
+import { link } from 'fs';
 
 // --- Components ---
 
@@ -309,6 +310,7 @@ const Works = () => {
       desc: "A complete shopping platform with payment integration, user authentication, and an admin dashboard.",
       tags: ["React", "Node.js", "Express", "MongoDB"],
       color: "from-blue-500 to-cyan-400",
+      link : "https://shopify-eccomerce.netlify.app/",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80"
     },
     { 
@@ -327,10 +329,11 @@ const Works = () => {
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80"
     },
     { 
-      title: "API Integration Website", 
-      desc: "Dynamic content platform fetching and displaying complex data from multiple REST APIs seamlessly.",
-      tags: ["React", "REST API", "JavaScript"],
+      title: "DIGITAL PRODUCT HUB", 
+      desc: "using Google AI Studio, a dynamic platform for digital products with AI-driven recommendations and seamless user experience.",
+      tags: ["Google AI Studio", "JavaScript", "HTML/CSS"],
       color: "from-purple-500 to-pink-500",
+      link : "https://digitalone.vasupati.shop/",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
   ];
